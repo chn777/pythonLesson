@@ -1,5 +1,6 @@
 def zsq1(func):
     print(1)
+
     def inner():
         print("-"*20)
         func()
@@ -8,6 +9,7 @@ def zsq1(func):
 
 def zsq2(func):
     print(2)
+
     def inner():
         print("*" * 20)
         func()

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3c89b23-a396-4676-a94c-a49765d63956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/cn7_34_类属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/cn7_35_类对象属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/cn7_36_类限制属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/cn7_37_类方法定义.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/cn7_38_类实例方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/cn7_39_类方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/cn7_40_类静态方法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/pythonLesson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/pythonLesson.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
@@ -18,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day05/cn7_34_类属性.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day06/cn7_39_类方法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day06/cn7_40_类静态方法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -80,6 +93,11 @@
         <option value="$PROJECT_DIR$/day04/cn7_32_文件列表.py" />
         <option value="$PROJECT_DIR$/day04/cn7_33_类定义.py" />
         <option value="$PROJECT_DIR$/day05/cn7_34_类属性.py" />
+        <option value="$PROJECT_DIR$/day06/cn7_36_类限制属性.py" />
+        <option value="$PROJECT_DIR$/day06/cn7_37_类方法定义.py" />
+        <option value="$PROJECT_DIR$/day06/cn7_38_类实例方法.py" />
+        <option value="$PROJECT_DIR$/day06/cn7_39_类方法.py" />
+        <option value="$PROJECT_DIR$/day06/cn7_40_类静态方法.py" />
       </list>
     </option>
   </component>
@@ -95,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,25 +123,27 @@
             <path>
               <item name="01_Python_基础" type="b2602c69:ProjectViewProjectNode" />
               <item name="01_Python_基础" type="462c0819:PsiDirectoryNode" />
-              <item name="day05" type="462c0819:PsiDirectoryNode" />
+              <item name="day06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day05" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day06" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day06" />
       <recent name="$PROJECT_DIR$/day05" />
       <recent name="$PROJECT_DIR$/day04" />
       <recent name="$PROJECT_DIR$/day03" />
@@ -143,29 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cn7_34_类属性">
-    <configuration name="cn7_30_文件重名删除" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="01_Python_基础" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04/cn7_30_文件重名删除.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.cn7_40_类静态方法">
     <configuration name="cn7_30_文件创建目录" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01_Python_基础" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cn7_31_目录" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cn7_36_类限制属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01_Python_基础" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,12 +193,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04/cn7_31_目录.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/cn7_36_类限制属性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cn7_32_文件列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cn7_37_类方法定义" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01_Python_基础" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,12 +215,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04/cn7_32_文件列表.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/cn7_37_类方法定义.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cn7_33_类定义" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cn7_38_类实例方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01_Python_基础" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,12 +237,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04/cn7_33_类定义.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/cn7_38_类实例方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cn7_34_类属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cn7_39_类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01_Python_基础" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,12 +259,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/cn7_34_类属性.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/cn7_39_类方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cn7_40_类静态方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01_Python_基础" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/cn7_40_类静态方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cn7_34_类属性" />
-        <item itemvalue="Python.cn7_33_类定义" />
-        <item itemvalue="Python.cn7_32_文件列表" />
-        <item itemvalue="Python.cn7_31_目录" />
-        <item itemvalue="Python.cn7_30_文件重名删除" />
+        <item itemvalue="Python.cn7_40_类静态方法" />
+        <item itemvalue="Python.cn7_39_类方法" />
+        <item itemvalue="Python.cn7_38_类实例方法" />
+        <item itemvalue="Python.cn7_37_类方法定义" />
+        <item itemvalue="Python.cn7_36_类限制属性" />
       </list>
     </recent_temporary>
   </component>
@@ -305,12 +324,13 @@
       <workItem from="1561463191656" duration="4661000" />
       <workItem from="1561548937793" duration="6923000" />
       <workItem from="1561636925169" duration="4103000" />
-      <workItem from="1561714659043" duration="1988000" />
+      <workItem from="1561714659043" duration="2046000" />
+      <workItem from="1562454102066" duration="2576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28018000" />
+    <option name="totallyTimeSpent" value="30652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,12 +345,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2267525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,8 +402,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/01_Python_$cn7_39_.coverage" NAME="cn7_39_类方法 Coverage Results" MODIFIED="1562457758861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_07_.coverage" NAME="cn7_07_循环 Coverage Results" MODIFIED="1561080253743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_11_.coverage" NAME="cn7_11_函数默认参数 Coverage Results" MODIFIED="1561087904297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/01_Python_$cn7_37_.coverage" NAME="cn7_37_类方法定义 Coverage Results" MODIFIED="1562455765510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_05_.coverage" NAME="cn7_05_字符串运算 Coverage Results" MODIFIED="1561077797096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_32_.coverage" NAME="cn7_32_文件列表 Coverage Results" MODIFIED="1561641089876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_13_.coverage" NAME="cn7_13_函数高阶函数 Coverage Results" MODIFIED="1561088916284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
@@ -401,9 +423,11 @@
     <SUITE FILE_PATH="coverage/01_Python_$cn7_27_.coverage" NAME="cn7_27_文件定位 Coverage Results" MODIFIED="1561560633164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_14_.coverage" NAME="cn7_14_函数返回函数 Coverage Results" MODIFIED="1561420078400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_20_.coverage" NAME="cn7_20_装饰器函数参数 Coverage Results" MODIFIED="1561470623301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/01_Python_$cn7_38_.coverage" NAME="cn7_38_类实例方法 Coverage Results" MODIFIED="1562457085522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_19_.coverage" NAME="cn7_19_装饰器叠加 Coverage Results" MODIFIED="1561469026623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_33_.coverage" NAME="cn7_33_类定义 Coverage Results" MODIFIED="1561644789869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_06_.coverage" NAME="cn7_06_分支 Coverage Results" MODIFIED="1561078970190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/01_Python_$cn7_40_.coverage" NAME="cn7_40_类静态方法 Coverage Results" MODIFIED="1562458347922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_21_.coverage" NAME="cn7_21_装饰器函数返回值 Coverage Results" MODIFIED="1561470880456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_18_2.coverage" NAME="cn7_18_装饰器2 Coverage Results" MODIFIED="1561468401962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_15_.coverage" NAME="cn7_15_函数闭包 Coverage Results" MODIFIED="1561464683200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
@@ -415,6 +439,7 @@
     <SUITE FILE_PATH="coverage/01_Python_$cn7_04_.coverage" NAME="cn7_04_数据类型 Coverage Results" MODIFIED="1561076981692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_28_.coverage" NAME="cn7_28_文件读操作 Coverage Results" MODIFIED="1561638178774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_24_Send.coverage" NAME="cn7_24_生成器Send方法 Coverage Results" MODIFIED="1561551486538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/01_Python_$cn7_36_.coverage" NAME="cn7_36_类限制属性 Coverage Results" MODIFIED="1562454492620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/01_Python_$cn7_23_.coverage" NAME="cn7_23_生成器定义 Coverage Results" MODIFIED="1561550887342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
   </component>
   <component name="editorHistoryManager">
@@ -691,13 +716,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/cn7_35_类对象属性.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/day06/cn7_36_类限制属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/cn7_34_类属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="360">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/cn7_35_类对象属性.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/cn7_38_类实例方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/cn7_39_类方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/cn7_37_类方法定义.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/cn7_40_类静态方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
